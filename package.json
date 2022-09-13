@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "src/server.mjs",
+    "dev": "node build/server.js",
     "build": "tsc"
   },
   "keywords": [],
