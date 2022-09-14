@@ -4,7 +4,7 @@ const app = express()
 
 app.get ('/router', (req, res) => {
   return res.status(200).json({
-    name: "test name",
+    name: "test",
     age: 12
   })
 })
